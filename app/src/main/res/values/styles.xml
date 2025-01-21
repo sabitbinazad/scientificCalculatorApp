@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Application Theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here -->
+    </style>
+    <!-- General Button Style -->
+    <style name="CalculatorButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:background">#FFA500</item> <!-- Orange -->
+        <item name="android:textColor">#FFFFFF</item> <!-- White -->
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <!-- Operator Buttons -->
+    <style name="OperatorButton" parent="CalculatorButton">
+        <item name="android:background">#FF5722</item> <!-- Red -->
+    </style>
+
+    <!-- Function Buttons -->
+    <style name="FunctionButton" parent="CalculatorButton">
+        <item name="android:background">#3F51B5</item> <!-- Blue -->
+    </style>
+
+    <!-- Clear Button -->
+    <style name="ClearButton" parent="CalculatorButton">
+        <item name="android:background">#9E9E9E</item> <!-- Grey -->
+    </style>
+
+    <!-- Equal Button -->
+    <style name="EqualButton" parent="CalculatorButton">
+        <item name="android:background">#4CAF50</item> <!-- Green -->
+    </style>
+</resources>

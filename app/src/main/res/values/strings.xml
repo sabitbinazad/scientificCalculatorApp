@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Scientific Calculator</string>
+    <string name="display_content_description">Calculator Display</string>
+</resources>
