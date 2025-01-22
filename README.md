@@ -1,4 +1,4 @@
-Hey, This is Sabit Bin Azad
+## Hey, This is Sabit Bin Azad
 
 # Scientific Calculator Android App
 The Scientific Calculator App is a versatile Android application designed for quick and accurate mathematical and scientific computations. It features basic arithmetic operations, advanced scientific functions like trigonometry, exponents, square roots, and constants like π. 
